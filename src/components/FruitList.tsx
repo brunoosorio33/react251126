@@ -1,5 +1,6 @@
 import type { ListFruitsProps } from "../types";
 
+// React.FC<props> tipa un componente funcional:
 export const FruitsList: React.FC<ListFruitsProps> = ({fruits}) => {
 
     return (
